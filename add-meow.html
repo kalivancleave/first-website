@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <!-- Meta Tags -->
+      <meta charset="UTF-8">
+
+      <!-- CSS Files Links -->
+      <link rel="stylesheet" href="./styles.css">
+
+      <!-- Title -->
+      <title>Add Me(ow)</title>
+    </head>
+
+    <body>
+      <header>
+        <h1>We Heart Cats</h1>
+      </header>
+
+      <!--Nav Bar-->
+      <div id="nav-bar">
+        <a href="./home.html" class="nav-item">HOME</a>
+        <a href="./add-meow.html" class="nav-item">ADD ME(ow)</a>
+        <a href="./faq.html" class="nav-item">FAQs</a>
+        <a href="./gallery.html" class="nav-item">GALLERY</a>
+      </div>
+
+      <h2 id="add-me-header">Add Me(ow)</h2>
+
+      <div id="form-background">
+        <form
+          action="form-processing.url"
+          method="post"
+          class="add-me">
+          <fieldset>
+            <legend id="form-header">Add Your Furry Friend</legend>
+
+            <div class="add-me-child">
+              <label for="fur-baby-name">Fur Baby Name:</label>
+              <input type="text" name="fur-baby-name" id="fur-baby-name">
+            </div>
+
+            <div class="add-me-child">
+              <label for="breed">Breed:</label>
+              <input type="text" name="breed" id="breed">
+            </div>
+
+            <div class="checkbox" id="checkbox">
+              <label for="gallery-approval">Check here if your cat has gifted you a corps recently.</label>
+              <input type="checkbox" name="yes" id="gallery-approval">
+            </div>
+
+            <div class="add-me-child">
+              <label for="bio">Kitty Biography:</label>
+              <textarea id="bio" name="bio" rows="5" cols="33">What I think my cat does when I'm away.</textarea>
+            </div>
+
+            <div id="add-me-button">
+              <button class="add-me-child" name="add-me" type="button">ADD ME(ow)</button>
+            </div>
+            </fieldset>
+        </form>
+      </div>
+
+      <footer>2023 (C) Kali VanCleave</footer>
+    </body>
+  </html>
