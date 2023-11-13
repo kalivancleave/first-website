@@ -202,3 +202,61 @@ button {
   padding: 5px 10px;
   align-items: center;
 }
+
+/*FAQ Features*/
+
+#faq-list {
+  margin: auto;
+  min-height: 655px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#faq-header {
+  margin-top: 40px;
+}
+
+#faq {
+  margin: 50px;
+}
+
+.faq-item {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c2b2f;
+  line-height: 200%;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Gallery Features*/
+
+#gallery-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+#row-1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+#row-2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.gallery-image {
+  width: 350px;
+  height: 350px;
+  padding: 0px 2.5px;
+  object-fit: cover;
+}
